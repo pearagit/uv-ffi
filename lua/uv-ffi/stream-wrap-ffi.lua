@@ -1,4 +1,4 @@
-local Connection = require 'connection'
+local Connection = require("uv-ffi.connection")
 
 -- This is a simple wrapper around raw libuv streams that lets
 -- us have pull-style streams with a nice coroutine based interface.
